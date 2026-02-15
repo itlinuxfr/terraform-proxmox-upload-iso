@@ -1,3 +1,12 @@
+provider "proxmox" {
+  endpoint  = "https://localhost:8006/"
+  api_token = "user@pam!token=secret"
+  insecure  = true
+  ssh {
+    agent = false
+  }
+}
+
 # Validate valid plan
 run "valid_plan" {
   command = plan

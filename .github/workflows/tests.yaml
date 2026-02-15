@@ -26,4 +26,9 @@ jobs:
         run: terraform init
 
       - name: Terraform Test
+        env:
+          PROXMOX_VE_ENDPOINT: "https://localhost:8006/"
+          PROXMOX_VE_USERNAME: "user@pam"
+          PROXMOX_VE_PASSWORD: "password"
+          PROXMOX_VE_INSECURE: "true"
         run: terraform test
