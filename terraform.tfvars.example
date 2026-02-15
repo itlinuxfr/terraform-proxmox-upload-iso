@@ -1,0 +1,9 @@
+proxmox_node        = "pve-01"
+proxmox_iso_storage = "local"
+proxmox_iso_name    = "talos-v1.11.3-nocloud-amd64.iso"
+proxmox_iso_url     = "https://github.com/siderolabs/talos/releases/download/v1.11.3/talos-nocloud-amd64.iso"
+proxmox_upload_overwrite = true
+
+# Optional Checksum
+# proxmox_iso_checksum = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+# proxmox_iso_checksum_algorithm = "sha256"
