@@ -24,13 +24,13 @@ module "talos_iso" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.12.0 |
-| <a name="requirement_proxmox"></a> [proxmox](#requirement\_proxmox) | ~> 0.70.0 |
+| <a name="requirement_proxmox"></a> [proxmox](#requirement\_proxmox) | ~> 0.95.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_proxmox"></a> [proxmox](#provider\_proxmox) | ~> 0.70.0 |
+| <a name="provider_proxmox"></a> [proxmox](#provider\_proxmox) | ~> 0.95.0 |
 
 ## Modules
 
